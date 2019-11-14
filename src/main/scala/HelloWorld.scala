@@ -28,11 +28,19 @@ object HelloWorld {
 
     println("End of execution")
 
-
     println(curriedFunction(1)(2))
+
+    val incompleteMethodValue = curriedFunction(20) _
+    val finalVal = incompleteMethodValue(3)
+
+    val list = List(1,2,3)
+    for(item <- list){
+      println(incompleteMethodValue(item))
+    }
+
   }
 
-  def curriedFunction(x: Int) = (y: Int) => { x + y }
+  def curriedFunction(x: Int)(y: Int): Int = { x + y }
 
 
 }
