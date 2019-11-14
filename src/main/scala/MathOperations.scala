@@ -1,6 +1,6 @@
 import scala.collection.immutable.ListSet
 
-class MathOperations {
+object MathOperations {
 
   def getSum(num1:Int, num2:Int) = {
     num1+num2

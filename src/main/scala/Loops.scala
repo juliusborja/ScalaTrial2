@@ -3,7 +3,7 @@ import scala.util.Try
 import scala.util.control.Breaks
 import scala.util.control.Breaks._
 
-class Loops {
+object Loops {
 
   def numberOne = {
     1

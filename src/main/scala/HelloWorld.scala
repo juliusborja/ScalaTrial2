@@ -4,8 +4,8 @@ object HelloWorld {
 
     val mo = new MathOperations
     val loops = new Loops
-    val errorHandling = new ErrorHandling
-    val methods = new Methods
+//    val errorHandling = new ErrorHandling
+//    val methods = new Methods
 
 //    println(mo.getSum(4,1))
 //    println(mo.getSum(Array(1,2,3)))
@@ -20,10 +20,10 @@ object HelloWorld {
 //    loops.forEach
 //    loops.doWhileLoop
 
-    errorHandling.simpleTryCatchBlock
-
-
-    methods.twoParameters _ tupled methods.methodThatReturnsTwoValuesInATuple()
+//    errorHandling.simpleTryCatchBlock
+//
+//
+//    methods.twoParameters _ tupled methods.methodThatReturnsTwoValuesInATuple()
 
 
     println("End of execution")
